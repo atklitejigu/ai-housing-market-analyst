@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
