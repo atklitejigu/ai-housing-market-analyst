@@ -1,0 +1,42 @@
+variable,odds_ratio
+Intercept,0.0018433259898839875
+"C(race_cat, Treatment(reference='White'))[T.Asian]",0.5171905383688219
+"C(race_cat, Treatment(reference='White'))[T.Black]",0.6588685109059493
+"C(race_cat, Treatment(reference='White'))[T.Joint]",0.6182264645497876
+"C(race_cat, Treatment(reference='White'))[T.Mixed minority]",0.9257624212075443
+"C(race_cat, Treatment(reference='White'))[T.Native American]",0.555669785533254
+"C(race_cat, Treatment(reference='White'))[T.Pacific Islander]",0.3915661727634738
+"C(race_cat, Treatment(reference='White'))[T.Race Not Available]",0.5518972658494169
+"C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",3.1002631179484714
+"C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",2.8736685840691223
+"C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",2.4748561983705986
+"C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",1.3745666712575861
+"C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",1.1471418851494837
+"C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",0.7669797486767196
+"C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",1.4506674866991147
+"C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",0.37104151282002684
+"C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",0.9966771078503673
+"C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",0.8815904834434557
+"C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]",1.0738129400880314
+"C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",1.3091019840433757
+"C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",0.6600884902144568
+"C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",1.4370644277375215
+"C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",0.3852614987769795
+"C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",0.7816006305247046
+"C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",1.7889748878838434
+"C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]",1.2194587462574702
+"C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",1.2130661663175077
+"C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",0.9347122792312588
+"C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",2.0042724513404377
+"C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",0.52229291690735
+"C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",0.9717637595243643
+"C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",1.464641882521053
+"C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]",1.1637943879146535
+"C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",1.164643047735417
+"C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",1.391087091997489
+"C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",2.3034073421016252
+"C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",0.8076218883649405
+"C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",0.8309280748286497
+"C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",1.5799366820615008
+"C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]",2.0864657644279117
+log_loan_amount,1.7628801315283393
