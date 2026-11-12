@@ -1,0 +1,54 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:          approval_flag   No. Observations:                81352
+Model:                          Logit   Df Residuals:                    81311
+Method:                           MLE   Df Model:                           40
+Date:                Thu, 26 Mar 2026   Pseudo R-squ.:                 0.09431
+Time:                        16:29:03   Log-Likelihood:                -38323.
+converged:                       True   LL-Null:                       -42314.
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+==============================================================================================================================================================================================
+                                                                                                                                 coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                                                     -6.2962      0.113    -55.702      0.000      -6.518      -6.075
+C(race_cat, Treatment(reference='White'))[T.Asian]                                                                            -0.6593      0.072     -9.152      0.000      -0.801      -0.518
+C(race_cat, Treatment(reference='White'))[T.Black]                                                                            -0.4172      0.078     -5.358      0.000      -0.570      -0.265
+C(race_cat, Treatment(reference='White'))[T.Joint]                                                                            -0.4809      0.222     -2.161      0.031      -0.917      -0.045
+C(race_cat, Treatment(reference='White'))[T.Mixed minority]                                                                   -0.0771      0.366     -0.211      0.833      -0.794       0.640
+C(race_cat, Treatment(reference='White'))[T.Native American]                                                                  -0.5876      0.241     -2.436      0.015      -1.060      -0.115
+C(race_cat, Treatment(reference='White'))[T.Pacific Islander]                                                                 -0.9376      0.377     -2.485      0.013      -1.677      -0.198
+C(race_cat, Treatment(reference='White'))[T.Race Not Available]                                                               -0.5944      0.063     -9.367      0.000      -0.719      -0.470
+C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]                                                                     1.1315      0.042     26.899      0.000       1.049       1.214
+C(income_bin, Treatment(reference='<$75K'))[T.$250K+]                                                                          1.0556      0.048     22.154      0.000       0.962       1.149
+C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]                                                                      0.9062      0.039     22.973      0.000       0.829       0.983
+C(income_bin, Treatment(reference='<$75K'))[T.Unknown]                                                                         0.3181      0.061      5.175      0.000       0.198       0.439
+C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]                  0.1373      0.087      1.571      0.116      -0.034       0.309
+C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]                 -0.2653      0.095     -2.779      0.005      -0.452      -0.078
+C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]                  0.3720      0.243      1.530      0.126      -0.105       0.849
+C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]        -0.9914      0.427     -2.322      0.020      -1.828      -0.155
+C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]       -0.0033      0.360     -0.009      0.993      -0.709       0.702
+C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]      -0.1260      0.495     -0.254      0.799      -1.097       0.845
+C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$150K-$250K]     0.0712      0.078      0.909      0.363      -0.082       0.225
+C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]                       0.2693      0.096      2.816      0.005       0.082       0.457
+C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]                      -0.4154      0.112     -3.713      0.000      -0.635      -0.196
+C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]                       0.3626      0.246      1.475      0.140      -0.119       0.844
+C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]             -0.9538      0.589     -1.620      0.105      -2.108       0.200
+C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]            -0.2464      0.449     -0.548      0.584      -1.127       0.635
+C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]            0.5816      0.673      0.864      0.388      -0.738       1.901
+C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$250K+]          0.1984      0.087      2.290      0.022       0.029       0.368
+C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]                   0.1932      0.084      2.301      0.021       0.029       0.358
+C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]                  -0.0675      0.091     -0.745      0.456      -0.245       0.110
+C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]                   0.6953      0.253      2.744      0.006       0.199       1.192
+C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]         -0.6495      0.417     -1.558      0.119      -1.466       0.167
+C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]        -0.0286      0.299     -0.096      0.924      -0.615       0.558
+C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]        0.3816      0.465      0.821      0.412      -0.530       1.293
+C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.$75K-$150K]      0.1517      0.075      2.018      0.044       0.004       0.299
+C(race_cat, Treatment(reference='White'))[T.Asian]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]                      0.1524      0.132      1.152      0.249      -0.107       0.412
+C(race_cat, Treatment(reference='White'))[T.Black]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]                      0.3301      0.131      2.511      0.012       0.072       0.588
+C(race_cat, Treatment(reference='White'))[T.Joint]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]                      0.8344      0.324      2.574      0.010       0.199       1.470
+C(race_cat, Treatment(reference='White'))[T.Mixed minority]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]            -0.2137      0.652     -0.328      0.743      -1.491       1.064
+C(race_cat, Treatment(reference='White'))[T.Native American]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]           -0.1852      0.467     -0.397      0.691      -1.100       0.730
+C(race_cat, Treatment(reference='White'))[T.Pacific Islander]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]           0.4574      0.707      0.647      0.518      -0.928       1.843
+C(race_cat, Treatment(reference='White'))[T.Race Not Available]:C(income_bin, Treatment(reference='<$75K'))[T.Unknown]         0.7355      0.102      7.191      0.000       0.535       0.936
+log_loan_amount                                                                                                                0.5669      0.009     61.219      0.000       0.549       0.585
+==============================================================================================================================================================================================
